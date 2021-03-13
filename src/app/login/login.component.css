@@ -1,0 +1,23 @@
+body {
+  background: url('../../assets/data/graphics/ui/loading/default.jpg') no-repeat;
+}
+
+.content {
+  position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background: url('../../assets/data/graphics/ui/loading/default.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-webkit-filter: grayscale(60%);
+	filter: grayscale(60%);
+	transition:all ease-in-out 0.3s;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
