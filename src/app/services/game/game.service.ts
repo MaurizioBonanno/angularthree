@@ -49,7 +49,7 @@ export class GameService {
 
     // loader
 
-    this.manService = new ManService(this.scene);
+    this.manService = new ManService(this.scene, this.colliders.colliders);
     this.manService.createModel('../../../../../../assets/fbx/people/Policeman.fbx', '../../../../../../assets/images/SimplePeople_Policeman_Black.png', 'PoliceMan');
 
 

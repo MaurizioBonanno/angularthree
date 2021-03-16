@@ -1,0 +1,3 @@
+export interface Animable {
+  animate();
+}
